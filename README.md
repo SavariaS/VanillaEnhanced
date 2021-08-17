@@ -8,12 +8,15 @@ GRUB theme with the same style as the default theme, but more detailed.
 * Increased font size
 * Rounded edges
 
+![](https://github.com/SavariaS/VanillaEnhanced/blob/master/images/theme.png "Vanilla Enhanced")
+![](https://github.com/SavariaS/VanillaEnhanced/blob/master/images/default_grub.png "Default GRUB theme")
+
 ## Installation
 
-### Command line
+#### Command line
 `sudo ./install.sh`
 
-### GRUB customiser
+#### GRUB customiser
 Download [release](https://github.com/SavariaS/VanillaEnhanced/releases/tag/v1.0.0).
 
 Go to Appearance settings > Add theme button.
@@ -21,7 +24,4 @@ Go to Appearance settings > Add theme button.
 Select `vanilla_enhanced.tar` and open it.
 
 Save changes.
-
-## To-Do
-* Add pictures
 
