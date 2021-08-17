@@ -8,7 +8,10 @@ GRUB theme with the same style as the default theme, but more detailed.
 * Increased font size
 * Rounded edges
 
+**Vanilla Enhanced:**
 ![](https://github.com/SavariaS/VanillaEnhanced/blob/master/images/theme.png "Vanilla Enhanced")
+
+**Default:**
 ![](https://github.com/SavariaS/VanillaEnhanced/blob/master/images/default_grub.png "Default GRUB theme")
 
 ## Installation
