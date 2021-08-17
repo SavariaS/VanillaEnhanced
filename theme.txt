@@ -1,0 +1,61 @@
+# Main options
+title-text: "GNU GRUB vX.X.X # Change GRUB version here
+title-font: "Ubuntu Regular 14"
+title-color: "#DDDDDD"
+desktop-image: "background.png"
+desktop-color: "#000000"
+
+# Boot menu
++ boot_menu {
+    left = 1%
+    top = 9%
+    width = 99%
+    height = 75%
+    item_font = "Ubuntu Regular 14"
+    item_color = "#cccccc"
+    selected_item_color = "#ffffff"
+    icon_width = 36
+    icon_height = 36
+    item_icon_space = 5
+    item_height = 40
+    item_padding = 1
+    item_spacing = 10
+    selected_item_pixmap_style = "select_*.png"
+}
+
+# Help labels
++ label {
+    left = 5%
+    top = 89%
+
+    font = "Ubuntu Regular 14"
+    color = "#FFFFFF"
+    align = "left"
+    text = "Use ↑ and ↓ keys to select which entry is highlighted."
+}
+
++ label {
+    left = 5%
+    top = 91%
+
+    font = "Ubuntu Regular 14"
+    color = "#FFFFFF"
+    align = "left"
+    text = "@KEYMAP_LONG@"
+}
+
+# Countdown
++ progress_bar {
+    left = 0%
+    top = 95%
+    width = 180
+
+    id = "__timeout__"
+    text = "@TIMEOUT_NOTIFICATION_LONG@"
+
+    font = "Ubuntu Regular 14"
+    text_color = "#FFFFFF"
+
+    bar_style = "*"
+    highlight_style = "*"
+}
